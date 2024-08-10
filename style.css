@@ -2,33 +2,18 @@ body {
   background-color: antiquewhite;
 }
 
-.container {
+.grid-container {
   display: grid;
-  place-items: center;
-  height: 100vh;
-}
-.iButton:hover {
-  background-color: #ff0062b9;
-  transform: scale(110%);
+  gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
 }
 
-.iButton {
-  width: 6em;
-  height: 6em;
-  border-radius: 50%;
-  border: none;
-  font-family: "Dancing Script", cursive;
-  font-weight: 500;
-  font-size: 60px;
-  background-image: linear-gradient(
-    125deg,
-    #c42592d2,
-    #c9610bb1,
-    #f66e0ed1,
-    #ea0800bf
-  );
-  transition: 0.3s;
-  cursor: pointer;
-  color: azure;
-  box-shadow: 5px 5px 10px 2px #afb1cbb9;
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
