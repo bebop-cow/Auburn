@@ -2,6 +2,17 @@ body {
   background-color: antiquewhite;
 }
 
+.pageName {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 2em;
+}
+h2 {
+  font-weight: 600 !important;
+}
 div.gallery {
   border: 1px solid #ccc;
 }
