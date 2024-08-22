@@ -14,6 +14,10 @@ body {
 h2 {
   font-weight: 600 !important;
 }
+.section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 div.gallery {
   border: 1px solid #ccc;
 }
